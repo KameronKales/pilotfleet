@@ -1,19 +1,15 @@
 baseurl: ''
 exclude: ['README.md']
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'Pilotfleet'
 
 collections:
   services:
     output: true
     permalink: /services/:path/
-  team:
+  pricing:
     output: true
-    permalink: /team/:path/
-  testimonials:
-    output: true
-    permalink: /testimonials/:path/
-
+    permalink: /pricing/:path/
 defaults:
   - scope:
       type: services
